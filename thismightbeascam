@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Styled Page</title>
+    <style>
+      body {
+        background-color: lightyellow;
+        font-family: Arial, sans-serif;
+        text-align: center;
+      }
+
+      h1 {
+        color: darkblue;
+      }
+
+      p {
+        font-size: 18px;
+        color: darkgreen;
+      }
+
+      button {
+        background-color: orange;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: darkorange;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>the chicken is coming</h1>
+    <p>hello</p>
+    <button onclick="alert('BOb ate your nachos')">Click Me</button>
+  </body>
+</html>
